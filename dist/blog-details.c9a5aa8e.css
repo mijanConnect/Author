@@ -1,0 +1,40 @@
+.author-hero-2 {
+  color: #fff;
+  background-color: #2c3e50;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0;
+  display: flex;
+}
+
+.author-hero-2-underline {
+  border-bottom: 5px solid #f39c12;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.author-hero-2-underline h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Playfair Display;
+  font-size: 60px;
+  line-height: 1;
+}
+
+.author-hero-2-tab {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.author-hero-2-tab p {
+  margin: 0 !important;
+}
+
+.author-hero-2-tab i {
+  color: #f39c12;
+}
+/*# sourceMappingURL=blog-details.c9a5aa8e.css.map */

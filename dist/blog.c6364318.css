@@ -1,0 +1,219 @@
+.bg4 {
+  background-color: var(--gray-00);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  box-shadow: 0 35px 25px #040b140a;
+  margin: 0 !important;
+}
+
+.mask-group-icon {
+  object-fit: cover;
+  z-index: 2;
+  align-self: stretch;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.bg5 {
+  z-index: 1;
+  width: 100%;
+  height: 326px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 !important;
+}
+
+.the-energy-efficiency {
+  font-size: inherit;
+  letter-spacing: -.02em;
+  z-index: 1;
+  width: 307px;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 120%;
+  display: inline-block;
+  position: relative;
+}
+
+.the-point-of {
+  font-size: var(--description-size);
+  letter-spacing: -.01em;
+  line-height: 180%;
+  font-family: var(--paragraph-1);
+  color: var(--color-paragraph);
+  z-index: 1;
+  align-self: stretch;
+  position: relative;
+}
+
+.the-energy-efficiency-offers-h-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 14px;
+  display: flex;
+}
+
+.read-more1 {
+  letter-spacing: .02em;
+  min-width: 91px;
+  margin-right: -1px;
+  line-height: 23px;
+  display: inline-block;
+  position: relative;
+}
+
+.btn, .btn1 {
+  box-sizing: border-box;
+}
+
+.btn1 {
+  border-top: 1px solid var(--color-darkslateblue);
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+}
+
+.btn {
+  padding: 0 0 var(--padding-10xs);
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: var(--gap-10xs);
+  z-index: 1;
+  flex-direction: column;
+  width: 92px;
+  height: 26px;
+  display: flex;
+}
+
+.author-23052022 {
+  z-index: 1;
+  align-self: stretch;
+  line-height: 125%;
+  position: relative;
+}
+
+.author-23052022-wrapper {
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: var(--date-size);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 154px;
+  display: flex;
+}
+
+.btn-parent {
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  font-family: var(--paragraph-1);
+  flex-direction: row;
+  display: flex;
+}
+
+.frame-parent25 {
+  gap: var(--gap-lgi);
+  flex-direction: column;
+  flex: 1;
+  max-width: 100%;
+}
+
+.content8, .frame-parent25, .read-more, .section1 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.content8 {
+  padding: 0 var(--padding-14xl) 0 var(--padding-11xl);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-self: stretch;
+  max-width: 100%;
+}
+
+.read-more, .section1 {
+  position: relative;
+}
+
+.section1 {
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--tittle-size);
+  color: var(--footer-and-secondary-headings);
+  font-family: var(--heading-3);
+  flex-direction: column;
+  flex: 1;
+  gap: 26px;
+  max-width: 100%;
+  padding: 0 0 28px;
+}
+
+.read-more {
+  background-color: var(--gray-00);
+  letter-spacing: normal;
+  flex-direction: row;
+  width: 100%;
+  line-height: normal;
+  overflow: hidden;
+}
+
+@media screen and (width <= 329px) {
+  .btn-parent {
+    flex-wrap: wrap;
+  }
+}
+
+.author-color {
+  color: #00f;
+  width: 100%;
+  height: 200px;
+}
+
+.author-grid-container {
+  background-color: #ecf0f1;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  padding: 10px 5%;
+  display: grid;
+}
+
+.author-grid-item {
+  text-align: center;
+  font-size: 30px;
+}
+
+@media screen and (width <= 1400px) {
+  .author-grid-container {
+    background-color: #ecf0f1;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    padding: 10px 5%;
+    display: grid;
+  }
+}
+
+@media screen and (width <= 850px) {
+  .author-grid-container {
+    background-color: #ecf0f1;
+    grid-template-columns: auto;
+    gap: 50px;
+    padding: 10px 5%;
+    display: grid;
+  }
+}
+/*# sourceMappingURL=blog.c6364318.css.map */
