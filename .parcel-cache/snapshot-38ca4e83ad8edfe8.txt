@@ -76,7 +76,7 @@
 77D:\Softex Solutions\Projects\Frontend\Author\node_modules\commander\Readme.md133657482454455129 0
 109D:\Softex Solutions\Projects\Frontend\Author\node_modules\@swc\helpers\src\_tagged_template_literal_loose.mjs133657482492617437 0
 97D:\Softex Solutions\Projects\Frontend\Author\node_modules\caniuse-lite\data\features\png-alpha.js133657482497462607 0
-68D:\Softex Solutions\Projects\Frontend\Author\dist\index.02bc0bbd.css133664976735777197 0
+68D:\Softex Solutions\Projects\Frontend\Author\dist\index.02bc0bbd.css133664986303240255 0
 90D:\Softex Solutions\Projects\Frontend\Author\node_modules\css-tree\cjs\tokenizer\types.cjs133657482481493911 0
 84D:\Softex Solutions\Projects\Frontend\Author\node_modules\cosmiconfig\dist\util.d.ts133657482471744775 0
 112D:\Softex Solutions\Projects\Frontend\Author\node_modules\csso\node_modules\css-tree\lib\lexer\generic-urange.js133657482484846207 0
@@ -165,7 +165,7 @@
 91D:\Softex Solutions\Projects\Frontend\Author\node_modules\css-tree\lib\syntax\node\Block.js133657482482860429 0
 96D:\Softex Solutions\Projects\Frontend\Author\node_modules\svgo\plugins\convertEllipseToCircle.js133657482470982584 0
 89D:\Softex Solutions\Projects\Frontend\Author\node_modules\caniuse-lite\data\regions\ML.js133657482495569900 0
-72D:\Softex Solutions\Projects\Frontend\Author\dist\index.02bc0bbd.css.map133664976736163569 0
+72D:\Softex Solutions\Projects\Frontend\Author\dist\index.02bc0bbd.css.map133664986304870079 0
 88D:\Softex Solutions\Projects\Frontend\Author\node_modules\cosmiconfig\dist\util.d.ts.map133657482468734709 0
 104D:\Softex Solutions\Projects\Frontend\Author\node_modules\caniuse-lite\data\features\css-nth-child-of.js133657482485892027 0
 97D:\Softex Solutions\Projects\Frontend\Author\node_modules\caniuse-lite\data\features\web-share.js133657482500644403 0
@@ -266,8 +266,8 @@
 79D:\Softex Solutions\Projects\Frontend\Author\dist\blog-details.c9a5aa8e.css.map133664976734408209 0
 85D:\Softex Solutions\Projects\Frontend\Author\node_modules\@parcel\config-default\test133664975992442005 1
 71D:\Softex Solutions\Projects\Frontend\Author\dist\books.cb2ee4cb.js.map133664976738404684 0
+73D:\Softex Solutions\Projects\Frontend\Author\dist\hero-image.9461066b.png133664986304932842 0
 72D:\Softex Solutions\Projects\Frontend\Author\node_modules\srcset\license133657482444412037 0
-73D:\Softex Solutions\Projects\Frontend\Author\dist\hero-image.9461066b.png133664976735004434 0
 118D:\Softex Solutions\Projects\Frontend\Author\node_modules\htmlnano\docs\versioned_docs\version-2.0.0\060-contribute.md133657482475239008 0
 112D:\Softex Solutions\Projects\Frontend\Author\node_modules\css-select\node_modules\domutils\lib\esm\legacy.js.map133657482466802732 0
 96D:\Softex Solutions\Projects\Frontend\Author\node_modules\term-size\vendor\windows\term-size.exe133657482452827467 0
@@ -376,8 +376,8 @@
 126D:\Softex Solutions\Projects\Frontend\Author\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Hash.js133657482472295710 0
 115D:\Softex Solutions\Projects\Frontend\Author\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Combinator.cjs133657482461105231 0
 109D:\Softex Solutions\Projects\Frontend\Author\node_modules\@swc\helpers\src\_class_private_field_loose_key.mjs133657482491471453 0
+60D:\Softex Solutions\Projects\Frontend\Author\dist\index.html133664986340466687 0
 118D:\Softex Solutions\Projects\Frontend\Author\node_modules\lightningcss-win32-x64-msvc\lightningcss.win32-x64-msvc.node133657482480936170 0
-60D:\Softex Solutions\Projects\Frontend\Author\dist\index.html133664976737902507 0
 110D:\Softex Solutions\Projects\Frontend\Author\node_modules\caniuse-lite\data\features\scrollintoviewifneeded.js133657482498317983 0
 76D:\Softex Solutions\Projects\Frontend\Author\node_modules\lmdb\src\windows.c133657482477216934 0
 67D:\Softex Solutions\Projects\Frontend\Author\dist\blog-details.html133664976737912508 0
@@ -601,7 +601,7 @@
 89D:\Softex Solutions\Projects\Frontend\Author\node_modules\caniuse-lite\data\regions\KR.js133657482494119405 0
 60D:\Softex Solutions\Projects\Frontend\Author\contact-us.html133664937342843983 0
 133D:\Softex Solutions\Projects\Frontend\Author\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\lib\filesystem.js133657482448331817 0
-49D:\Softex Solutions\Projects\Frontend\Author\dist133664976738484876 1
+49D:\Softex Solutions\Projects\Frontend\Author\dist133664986340501731 1
 88D:\Softex Solutions\Projects\Frontend\Author\node_modules\cosmiconfig\dist\defaults.d.ts133657482469839872 0
 89D:\Softex Solutions\Projects\Frontend\Author\node_modules\caniuse-lite\data\regions\SL.js133657482498646459 0
 117D:\Softex Solutions\Projects\Frontend\Author\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_load.1133657482465101256 0
@@ -627,7 +627,7 @@
 71D:\Softex Solutions\Projects\Frontend\Author\node_modules\color-convert133664976180755999 1
 89D:\Softex Solutions\Projects\Frontend\Author\node_modules\caniuse-lite\data\regions\NF.js133657482496031401 0
 86D:\Softex Solutions\Projects\Frontend\Author\node_modules\svgo\plugins\inlineStyles.js133657482472081352 0
-55D:\Softex Solutions\Projects\Frontend\Author\index.html133664936213395121 0
+55D:\Softex Solutions\Projects\Frontend\Author\index.html133664986330227409 0
 102D:\Softex Solutions\Projects\Frontend\Author\node_modules\@parcel\reporter-dev-server\src\HMRServer.js133657482452492614 0
 101D:\Softex Solutions\Projects\Frontend\Author\node_modules\@parcel\transformer-svg\src\dependencies.js133657482448276111 0
 116D:\Softex Solutions\Projects\Frontend\Author\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\intro.doc133657482479549516 0
