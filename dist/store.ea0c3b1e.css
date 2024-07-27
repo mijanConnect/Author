@@ -1,0 +1,121 @@
+.store-books-single {
+  background-color: #f5f8fc;
+  flex-direction: column;
+  padding: 20px;
+  display: flex;
+}
+
+.books-border {
+  border: 10px solid #f39c12;
+  padding: 30px 20px 0;
+}
+
+.books-border img {
+  width: 100%;
+  height: 100%;
+}
+
+.store-header {
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+
+.store-header h1 {
+  font-family: Playfair Display;
+  font-size: 30px;
+}
+
+.store-header h3 {
+  color: #f39c12;
+  font-size: 25px;
+}
+
+.books-description {
+  text-align: left;
+  color: #969aa0;
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.store-buttons {
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+
+.author-download {
+  color: #2c3e50;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f5f8fc;
+  border: 2px solid #f39c12;
+  margin: 4px 2px;
+  padding: 15px 32px;
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: none;
+  margin: 0 !important;
+}
+
+.author-download:hover {
+  color: #f39c12;
+  background-color: #f5f8fc;
+  transition: all .5s;
+}
+
+.author-read {
+  color: #2c3e50;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f5f8fc;
+  border: 5px solid #f39c12;
+  margin: 4px 2px;
+  padding: 15px 32px;
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: none;
+  margin: 0 !important;
+}
+
+.author-read:hover {
+  color: #f39c12;
+  background-color: #f5f8fc;
+  transition: all .5s;
+}
+
+.author-books-container {
+  background-color: #ecf0f1;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  padding: 10px 5%;
+  display: grid;
+}
+
+.author-books-item {
+  text-align: center;
+  font-size: 30px;
+}
+
+@media screen and (width <= 1400px) {
+  .author-books-container {
+    background-color: #ecf0f1;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    padding: 10px 5%;
+    display: grid;
+  }
+}
+
+@media screen and (width <= 850px) {
+  .author-books-container {
+    background-color: #ecf0f1;
+    grid-template-columns: auto;
+    gap: 50px;
+    padding: 10px 5%;
+    display: grid;
+  }
+}
+/*# sourceMappingURL=store.ea0c3b1e.css.map */

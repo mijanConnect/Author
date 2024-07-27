@@ -198,7 +198,7 @@
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: #ECF0F1;
-    padding: 10px 5%;
+    padding: 0 5% 60px 5%;
     column-gap: 50px;
     row-gap: 50px;
   }
@@ -229,4 +229,15 @@
         row-gap: 50px;
     }
     
+}
+
+.blog-read-more{
+    text-decoration: none;
+    color: #2C3E50;
+    font-weight: 800;
+}
+
+.blog-read-more:hover{
+    color: #F39C12;
+    transition: 0.5s;
 }
