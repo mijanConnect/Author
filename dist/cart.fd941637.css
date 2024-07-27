@@ -269,6 +269,12 @@
   max-width: 100%;
 }
 
+.author-cart {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 .root {
   background-color: var(--gray-00);
   padding: var(--padding-12xs) 0 84px;
@@ -280,7 +286,7 @@
   font-family: var(--heading-3);
   flex-direction: column;
   gap: 61px;
-  width: 100%;
+  max-width: 800px;
   position: relative;
   overflow: hidden;
 }

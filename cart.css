@@ -7,28 +7,33 @@
   font-family: inherit;
   white-space: nowrap;
 }
+
 .cart-item-image {
   width: 20px;
   height: 20px;
   position: relative;
 }
+
 .cart-item,
 .title,
 .title-wrapper {
   display: flex;
   align-items: flex-start;
 }
+
 .cart-item {
   flex-direction: column;
   justify-content: flex-start;
   padding: 9.5px 0 0;
 }
+
 .title,
 .title-wrapper {
   flex-direction: row;
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .title {
   flex: 1;
   border-radius: var(--br-8xs) var(--br-8xs) 0 0;
@@ -41,6 +46,7 @@
   color: var(--color-darkslateblue);
   font-family: var(--heading-3);
 }
+
 .title-wrapper {
   align-self: stretch;
   justify-content: flex-start;
@@ -49,24 +55,28 @@
   z-index: 99;
   position: sticky;
 }
+
 .book-icon1 {
   height: 178px;
   width: 133px;
   position: relative;
   object-fit: cover;
 }
+
 .dare-to-be1,
 .usd2 {
   position: relative;
   letter-spacing: -0.02em;
   line-height: 29px;
 }
+
 .usd2 {
   width: 151px;
   display: inline-block;
   font-family: var(--font-inter);
   color: var(--color-paragraph);
 }
+
 .book-title {
   align-self: stretch;
   display: flex;
@@ -75,6 +85,7 @@
   justify-content: flex-start;
   gap: var(--gap-lg);
 }
+
 .remove {
   position: relative;
   letter-spacing: -0.02em;
@@ -82,6 +93,7 @@
   display: inline-block;
   min-width: 86px;
 }
+
 .book-details1 {
   flex: 1;
   display: flex;
@@ -93,6 +105,7 @@
   gap: 56px;
   min-width: 207px;
 }
+
 .background6 {
   height: 62px;
   width: 120px;
@@ -102,6 +115,7 @@
   box-sizing: border-box;
   display: none;
 }
+
 .quantity-value {
   position: relative;
   letter-spacing: -0.01em;
@@ -111,6 +125,7 @@
   min-width: 10px;
   z-index: 1;
 }
+
 .book-item,
 .quantity1 {
   display: flex;
@@ -118,6 +133,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .quantity1 {
   width: 120px;
   background-color: var(--color-whitesmoke-100);
@@ -128,17 +144,20 @@
   color: var(--color-paragraph);
   font-family: var(--font-inter);
 }
+
 .book-item {
   flex: 1;
   flex-wrap: wrap;
   gap: var(--gap-19xl);
   max-width: 100%;
 }
+
 .book-item-wrapper,
 .line1 {
   align-self: stretch;
   box-sizing: border-box;
 }
+
 .book-item-wrapper {
   display: flex;
   flex-direction: row;
@@ -151,12 +170,14 @@
   color: var(--color-darkslateblue);
   font-family: var(--heading-3);
 }
+
 .line1 {
   height: 1px;
   position: relative;
   border-top: 1px solid var(--color-darkslateblue);
   opacity: 0.2;
 }
+
 .sub-total {
   position: relative;
   letter-spacing: -0.02em;
@@ -164,6 +185,7 @@
   display: inline-block;
   min-width: 107px;
 }
+
 .subtotal-value {
   display: flex;
   flex-direction: column;
@@ -171,6 +193,7 @@
   justify-content: flex-start;
   padding: var(--padding-10xs-5) 0 0;
 }
+
 .usd3 {
   position: relative;
   font-size: var(--font-size-xl);
@@ -180,6 +203,7 @@
   font-family: var(--font-inter);
   min-width: 122px;
 }
+
 .subtotal-container {
   flex: 1;
   display: flex;
@@ -189,6 +213,7 @@
   max-width: 100%;
   gap: var(--gap-xl);
 }
+
 .line-parent,
 .subtotal-details {
   align-self: stretch;
@@ -197,15 +222,18 @@
   justify-content: flex-start;
   max-width: 100%;
 }
+
 .subtotal-details {
   flex-direction: row;
   padding: 0 78px 0 var(--padding-52xl);
   box-sizing: border-box;
 }
+
 .line-parent {
   flex-direction: column;
   gap: var(--gap-5xl);
 }
+
 .continue-to-checkout {
   position: relative;
   font-size: var(--tittle-size);
@@ -215,6 +243,7 @@
   color: var(--color-darkslateblue);
   text-align: center;
 }
+
 .button-wrapper,
 .button2,
 .root {
@@ -222,6 +251,7 @@
   align-items: flex-start;
   box-sizing: border-box;
 }
+
 .button2 {
   cursor: pointer;
   border: 0;
@@ -232,21 +262,31 @@
   justify-content: center;
   max-width: 100%;
 }
+
 .button2:hover {
   background-color: #cc960f;
 }
+
 .button-wrapper,
 .root {
   justify-content: flex-start;
 }
+
 .button-wrapper {
   align-self: stretch;
   flex-direction: row;
   padding: 0 var(--padding-43xl);
   max-width: 100%;
 }
+
+.author-cart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .root {
-  width: 100%;
+  max-width: 800px;
   position: relative;
   background-color: var(--gray-00);
   overflow: hidden;
@@ -260,62 +300,75 @@
   color: var(--color-darkslateblue);
   font-family: var(--heading-3);
 }
+
 @media screen and (max-width: 650px) {
   .book-item {
     gap: var(--gap-lgi);
   }
 }
+
 @media screen and (max-width: 450px) {
   .title {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .dare-to-be1,
   .remove,
   .usd2 {
     font-size: var(--description-size);
     line-height: 23px;
   }
+
   .book-details1 {
     gap: 28px;
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .quantity-value {
     font-size: var(--font-size-base);
     line-height: 22px;
   }
+
   .book-item-wrapper {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .sub-total {
     font-size: var(--description-size);
     line-height: 23px;
   }
+
   .usd3 {
     font-size: var(--font-size-base);
     line-height: 27px;
   }
+
   .subtotal-container {
     flex-wrap: wrap;
   }
+
   .subtotal-details {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .continue-to-checkout {
     font-size: var(--description-size);
     line-height: 23px;
   }
+
   .button-wrapper {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .root {
     gap: var(--gap-11xl);
   }
