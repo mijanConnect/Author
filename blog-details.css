@@ -1,4 +1,19 @@
+.blog-details-img {
+    margin: 0;
+    position: relative;
+    padding-bottom: 300px;
+    background-color: aliceblue;
+}
 
+.blog-details-img img {
+    width: 100%;
+}
+
+.blog-details-parent {
+    margin-top: -100px;
+    position: absolute;
+    padding: 0 10%;
+}
 
 .feb-23-2024 {
     width: 90px;
@@ -196,5 +211,27 @@
 
     .interaction-buttons {
         flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .blog-details{
+        padding: 35px;
+    }
+
+    .blog-details-parent{
+        padding: 0;
+    }
+
+    .blog-details-img{
+        padding-bottom: 350px;
+    }
+
+    .date-container{
+        margin-bottom: 20px;
+    }
+
+    .sample-post-with{
+        margin-bottom: 20px;
     }
 }

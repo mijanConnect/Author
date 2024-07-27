@@ -1,3 +1,20 @@
+.blog-details-img {
+  background-color: #f0f8ff;
+  margin: 0;
+  padding-bottom: 300px;
+  position: relative;
+}
+
+.blog-details-img img {
+  width: 100%;
+}
+
+.blog-details-parent {
+  margin-top: -100px;
+  padding: 0 10%;
+  position: absolute;
+}
+
 .feb-23-2024 {
   width: 90px;
   min-width: 90px;
@@ -189,6 +206,24 @@
 
   .interaction-buttons {
     flex-wrap: wrap;
+  }
+}
+
+@media screen and (width <= 600px) {
+  .blog-details {
+    padding: 35px;
+  }
+
+  .blog-details-parent {
+    padding: 0;
+  }
+
+  .blog-details-img {
+    padding-bottom: 350px;
+  }
+
+  .date-container, .sample-post-with {
+    margin-bottom: 20px;
   }
 }
 /*# sourceMappingURL=blog-details.91c36e8c.css.map */
